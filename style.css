@@ -13,3 +13,29 @@ h3:first-child{
 p:nth-child(7){
     color: green;
 }
+
+/* task2*/
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.list{
+    display: flex;
+}
+.hover-link:hover{
+    color: fuchsia;
+}
+.focus-link:focus{
+    background-color: skyblue;
+}
+.link:link{
+    background-color: yellowgreen;
+}
+.visidet-link:visited{
+    color: red;
+}
+.active-link:active{
+    background-color: black;
+}
