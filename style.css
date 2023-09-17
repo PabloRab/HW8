@@ -39,3 +39,18 @@ a{
 .active-link:active{
     background-color: black;
 }
+.tuesday li:last-child{
+    background-color: blueviolet;
+}
+.wednesday li:nth-child(odd){
+    color: blue;
+}
+.thusday li:nth-child(even){
+    background-color: aquamarine;
+}
+.friday li:nth-child(-n+2){
+    background-color: black;
+}
+.friday li:nth-child(3n){
+    color: burlywood;
+}
